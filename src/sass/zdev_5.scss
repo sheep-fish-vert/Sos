@@ -18,3 +18,32 @@
     &:before{ background-image: url(../images/b3topadd.png); width: 240px; height: 429px; top: -218px;left: calc(50% + 603px);}
 }
 .white-txt{color:#fff;}
+.black-txt{color:#000;}
+
+.block2{
+    p{ margin: 0;}
+    .block2-wrap{}
+    .title{
+        h2{ margin: 0;}
+    }
+    .top-content{
+        .content-title-block{
+            .big{}
+            .smal{}
+        }
+        .img{}
+        .txt-wrap{
+            .txt{}
+        }
+        .button-wrap{}
+        .button{}
+
+    }
+    .bot-content{
+        .title-bot{}
+        .black-txt{}
+        .img{}
+    }
+
+
+}
