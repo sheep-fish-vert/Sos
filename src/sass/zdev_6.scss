@@ -1,10 +1,92 @@
-.block1{background: url('../images/block1-bg.jpg') no-repeat; background-size: 1920px 826px; background-position: center top; 
-	.mbox{max-width: 1024px; width: 100%; 
-		.part-with-face{ display: flex; justify-content: flex-end;
-			.text-container{ width: 300px;
-				
+.block1{background: url('../images/block1-bg.jpg') no-repeat; background-size: 1920px 826px; background-position: center top; overflow: hidden; position: relative;
+	p,h2,h3{margin:0;font-family: 'Acrom';}
+	.lower-background-wrapper{background: url('../images/block1-bg2.png') no-repeat; width: 100%; min-height: 948px; z-index: 2; position: absolute; bottom: 0px; background-position: center;
+		
+	}
+	.mbox{max-width: 1024px; width: 100%;  padding: 35px 0 0 0;  position: relative; z-index: 3;
+		.part-with-face{ display: flex; justify-content: flex-end; padding: 0 0 350px 0;
+			.text-container{ width: 300px; display: flex; flex-wrap: wrap; padding: 0 0px 0 ;
+				.brend-advantages{font-weight: 400; color: #000; font-size: 32px; padding: 0 0 20px 0;
+					span{color: #4ab7c7; font-size: 41px;}					
+				}
+				.brand-name{padding: 0 0 40px 0;
+					h3{font-size: 63px; font-weight: 300;}
+				}
+				.brand-descrition{font-size: 16px; border-left: 5px solid #ffce23; padding: 0 0 0 20px;
+					
+				}
 			}
 			
+		}
+		.part-with-timer{position: relative; z-index:3; display: flex;  flex-wrap: wrap; padding-top: 50px; padding-bottom: 170px;
+			.sircle-with-tick-wrapper{padding: 0 0 30px 0;width: 100%; display: flex; justify-content: center;
+				.sircle-with-tick{width: 60px; min-height: 60px; border: 1px solid #fff; border-radius: 50%;display: flex; justify-content: center; align-items: center;
+					.tick{width: 15px; min-height: 15px; border-right: 2px solid #fff; border-top: 2px solid #fff;transform: rotate(135deg); margin-top: -7px; 
+						
+					}
+				}		
+			}
+			.more-advantages{width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around; padding-bottom: 60px;
+				.advantage{width: 230px; display: flex; flex-wrap: wrap; 
+					.tick-image{width: 100%; display: flex; justify-content: center;padding: 10px;
+						
+					}
+					.advantage-text{width: 100%;text-align: center; font-size: 16px; font-weight: 300; color:#fff; line-height: 1.3;
+						
+					}
+				}
+			}
+			.making-order{ max-width: 965px; width: 100%; display: flex; margin: 0 auto; background: #fff; position: relative; justify-content: flex-end; padding:50px 70px 85px 0; min-height: 465px; flex-wrap: wrap; 
+				.order-heading{width: 100%; text-align: center;
+					h3{font-size: 30px; font-weight: 900;}
+				}
+				.left-part{ max-width: 360px;  width: 100%; display: flex; flex-wrap: wrap;padding-right: 30px; 
+					.price-part{display: flex; align-items: center;
+						.old-price{width: 130px; font-weight: 300; font-size: 18px;
+							span{text-decoration: line-through;
+								
+							}
+						 }
+						.new-price{ width: 210px; font-size: 24px; font-weight: 900; background: #ffce23; padding: 20px 15px; border-top-right-radius: 36px;
+							border-bottom-right-radius: 36px;
+							span{font-size: 41px;
+								
+							}
+						 }
+					}
+					.timer-part{display: flex; flex-wrap: wrap; justify-content: flex-end;
+						.timer-heading{width: 100%;text-align: center; 
+							h3{font-size: 24px; font-weight: 400;}
+						}
+						.timer{display: flex;  align-items: center;justify-content: flex-end; 
+							.date{font-size: 24px; font-weight: 700; padding: 17px 14px; background: #f3f2f2;  border-radius: 7px; font-family: 'Acrom'; }
+							.sign{font-size: 14px;margin-top: 5px; text-align: center;}
+							.day-wrapper{padding-right: 30px;}							
+							.spliter{padding: 0 5px; margin-top: -5px; }
+						}
+					}
+				}
+				.right-part{ max-width: 320px; width: 100%; border-left: 1px solid #4fc5c1;
+					.order{display: flex; flex-direction: column; padding-left: 40px; justify-content: space-around; height: 100%;
+					
+					}
+					input{border: 1px solid #4fc5c1; padding: 20px 15px; border-radius: 5px;
+						&::-webkit-input-placeholder {color:#616161; font-family: 'Acrom'; font-size: 16px; font-weight: 300;}
+						&::-moz-placeholder          {color:#616161; font-family: 'Acrom'; font-size: 16px; font-weight: 300;}/* Firefox 19+ */
+						&:-moz-placeholder           {color:#616161; font-family: 'Acrom'; font-size: 16px; font-weight: 300;}/* Firefox 18- */
+						&:-ms-input-placeholder      {color:#616161; font-family: 'Acrom'; font-size: 16px; font-weight: 300;}
+
+					}
+					button{padding: 20px 0 15px; background:#4fc5c1; color: #fff; font-size: 18px; font-family:'Acrom';  font-family: 700; border: none; border-bottom: 5px solid #43bdb9; border-radius: 5px; }
+				}
+				.yellow-slashes{ position:absolute;  top: 0; left: -50px; z-index: 1;
+					
+				}
+				.green-slashes{position:absolute;  top: -50px; right: -50px; z-index: 1;
+					
+				}
+				.goods{position:absolute;  bottom: -50px; left: -90px; z-index: 2;}
+			}
 		}
 		
 	}
