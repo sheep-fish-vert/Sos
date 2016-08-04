@@ -20,7 +20,14 @@
 
 }
 @media screen and (max-width: 666px){
-
+    .block3{  background-image: url(../images/b3BG320.jpg); background-repeat: no-repeat; background-position: left top; min-height: 1px;
+        .mbox{ padding: 0 6px;}
+        .title{ padding-top: 65px; margin-bottom: 38px;}
+        .subtext{padding: 35px 10px 22px; margin-bottom: 18px;}
+        .content-wrap{ width: 100%; padding: 0 20px;}
+        .item-txt{font:100 14px/17px 'Roboto';}
+        .item{ margin-bottom: 13px;}
+    }
 }
 @media screen and (max-width: 479px){
 
