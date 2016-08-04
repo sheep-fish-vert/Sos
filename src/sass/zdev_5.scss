@@ -24,8 +24,8 @@
     .mbox{max-width: 1210px;}
     p{ margin: 0;}
 
-    .title{font:900 25px/1.2 'Acrom'; color: #4fc5c1; text-align: center; letter-spacing:-2px; margin-bottom: 84px;
-        h2{ margin: 0;}
+    .title{ text-align: center; letter-spacing:-2px; margin-bottom: 84px;
+        h2{ margin: 0;font:900 35px/1.2 'Acrom'; color: #4fc5c1;}
     }
     .top-content{ position: relative; margin-bottom: 115px; background-image: url(../images/b2img.jpg); background-position: left top; background-repeat: no-repeat;
         .content-title-block{float: right; width: 50%; padding: 17px 0 0 50px; margin-bottom: 35px;
@@ -52,4 +52,17 @@
     &:before{ content: ''; display: block; position: absolute;background-image: url(../images/b3topadd.png); width: 240px; height: 429px; bottom: -212px;left: calc(50% + 603px);}
     .img768{ display: none;}
     .img320{ display: none;}
+}
+.block4{
+    p{ margin: 0;}
+    .block-wrap{}
+    .title{ text-align: center; letter-spacing:-2px; margin-bottom: 84px;
+        h2{ margin: 0;font:900 35px/1.2 'Acrom'; color: #4fc5c1;}
+    }
+    .content{}
+    .item{ width: 400px;
+        .title{}
+        .txt{}
+    }
+    .bott-blue{}
 }
