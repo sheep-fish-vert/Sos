@@ -34,6 +34,13 @@
         .img768{ display: block;}
         .img1920{ display: none;}
     }
+    .block4{
+
+
+        .content{  margin-bottom: 31px;}
+
+        .bott-blue{  font:500 22px/1.2 'Acrom'; padding: 50px 20px 45px;}
+    }
 }
 @media screen and (max-width: 666px){
     .block2 {
@@ -65,6 +72,16 @@
 
         .img768{ display: none;}
         .img320{ display: block;}
+    }
+
+    .block4{
+        .title{ margin-bottom: 66px;}
+        .block-wrap {    padding-top: 64px;  }
+        .content{  margin-bottom: 0;}
+        .item{ margin-bottom: 73px;
+            .txt{font:100 14px/17px 'Roboto';}
+        }
+        .bott-blue{  font:500 18px/1.2 'Acrom'; padding: 44px 0px 42px;}
     }
 }
 @media screen and (max-width: 320px){

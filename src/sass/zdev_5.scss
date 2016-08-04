@@ -47,22 +47,27 @@
     .bot-content{
         .title-bot{ color: #4fc5c1;font:700 35px/1.2 'Acrom'; text-align: center; margin-bottom: 55px;}
         .black-txt{font: 400 35px/1.2 'Acrom';}
-        .img{ text-align: center; width: 100%; }
+        .img{ text-align: center; width: 100%;}
     }
     &:before{ content: ''; display: block; position: absolute;background-image: url(../images/b3topadd.png); width: 240px; height: 429px; bottom: -212px;left: calc(50% + 603px);}
     .img768{ display: none;}
     .img320{ display: none;}
 }
-.block4{
+.block4{ position: relative; overflow: hidden;
     p{ margin: 0;}
-    .block-wrap{}
-    .title{ text-align: center; letter-spacing:-2px; margin-bottom: 84px;
+    .block-wrap{padding-top: 94px;}
+    .title{ text-align: center; letter-spacing:-1px; margin-bottom: 130px;
         h2{ margin: 0;font:900 35px/1.2 'Acrom'; color: #4fc5c1;}
     }
-    .content{}
-    .item{ width: 400px;
-        .title{}
-        .txt{}
+    .content{ display: flex; justify-content: space-around; flex-wrap: wrap; margin-bottom: 25px;}
+    .item{ width: 400px; position: relative;margin-bottom: 62px;
+        &:before{content: ''; display: block; width: 124px; height: 124px; border-radius: 50%; position: absolute; top: -46px; left: -46px; background-color: #4fc5c1; z-index: -1;}
+        &:first-child:before,
+        &:last-child:before{ background-color: #ffce23;}
+        .title-item{font:700 24px/1.2 'Acrom'; color: #000; padding-bottom: 6px;}
+        .txt{font:100 16px/19px 'Roboto'; color: #000;}
     }
-    .bott-blue{}
+    .bott-blue{ color: #fff; font:500 24px/1.2 'Acrom'; background-color: #4fc5c1; width: 100%; text-align: center; padding: 58px 20px;}
+    &:before{ content: ''; display: block; position: absolute;background-image: url(../images/b3botadd.png); width: 110px; height: 187px; top: -101px;left: calc(50% + 502px);}
+    &:after{ content: ''; display: block; position: absolute;background-image: url(../images/b4botadd.png); width: 136px; height: 230px; bottom: 73px;left: calc(50% - 795px);}
 }
