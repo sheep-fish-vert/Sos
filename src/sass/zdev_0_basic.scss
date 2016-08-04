@@ -95,7 +95,9 @@ input, textarea{
     }
 }
 
-//  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
+@include font-face('Acrom', 'Acrom-ExtraBold', 900);
+@include font-face('Roboto', 'Roboto-Black', 900);
+@include font-face('Roboto', 'Roboto-Thin', 100);
 
 
 /*/fonts*/
