@@ -63,9 +63,7 @@
 	.left-part{ width: 360px;  display: flex; flex-wrap: wrap;padding-right: 30px;
 		.price-part{display: flex; align-items: center;
 			.old-price{width: 130px; font-weight: 300; font-size: 18px;
-				span{text-decoration: line-through;
-
-				}
+				span{text-decoration: line-through;}
 			}
 			.new-price{ width: 210px; font-size: 24px; font-weight: 900; background: #ffce23; padding: 20px 15px; border-top-right-radius: 36px;
 				border-bottom-right-radius: 36px; letter-spacing: -1px;

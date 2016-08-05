@@ -33,7 +33,26 @@
 
 }
 @media screen and (max-width: 666px){
-
+	.making-order{		background-image: url(../images/bg1t.jpg); background-repeat: no-repeat; background-position: left top; padding: 40px 10px 70px;
+		.yellow-slashes,
+		.goods{ display: none;}
+		.right-part { width: 100%;
+			.order { padding: 0; justify-content: center;}
+		}
+		.left-part{ width: 100%; padding-right: 0; padding-top: 121px;
+			.timer-part{ padding-right: 18px;
+				.timer{
+					.date{ width: 51px; height: 51px;}
+				}
+				.timer-heading { text-align: right; padding-bottom: 16px;
+					h3 { font-size: 20px; text-align: right; width: 200px; display: inline-block; }
+				}
+			}
+			.price-part{flex-wrap: wrap; justify-content: flex-end; padding-right: 20px; padding-bottom: 14px;
+				.old-price{ font-size:14px; width: 120px; padding-bottom: 11px;}
+			}
+		}
+	}
 }
 @media screen and (max-width: 479px){
 
