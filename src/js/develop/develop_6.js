@@ -60,10 +60,32 @@ $(document).ready(function(){
                 }
             }
         }
-        $('.timer').find('.days').html(days);
-        $('.timer').find('.hours').html(hour);
-        $('.timer').find('.mins').html(min);
-        $('.timer').find('.seconds').html(sec);
+        
+        if(days <10){
+ 			$('.timer').find('.days').html('0'+days);
+ 		}else{
+ 			$('.timer').find('.days').html(days);
+ 		}
+
+ 		if(hour <10){
+ 			$('.timer').find('.hours').html('0'+ hour);
+ 		}else{
+ 			$('.timer').find('.hours').html(hour);
+ 		}
+ 		if(min <10){
+ 			$('.timer').find('.mins').html('0'+min);
+ 		}else{
+ 			$('.timer').find('.mins').html(min);
+ 		}
+ 		if(sec <10){
+ 			$('.timer').find('.seconds').html('0'+sec);
+ 		}else{
+ 			$('.timer').find('.seconds').html(sec);
+ 		}
+        
+        
+        
+        
 
         /* reload */
 

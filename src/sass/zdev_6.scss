@@ -4,13 +4,13 @@
 		
 	}
 	.mbox{max-width: 1024px; width: 100%;  padding: 35px 0 0 0;  position: relative; z-index: 3;
-		.part-with-face{ display: flex; justify-content: flex-end; padding: 0 0 350px 0;
+		.part-with-face{ display: flex; justify-content: flex-end; padding: 0 80px 350px 0;
 			.text-container{ width: 300px; display: flex; flex-wrap: wrap; padding: 0 0px 0 ;
 				.brend-advantages{font-weight: 400; color: #000; font-size: 32px; padding: 0 0 20px 0;
-					span{color: #4ab7c7; font-size: 41px;}					
+					span{color: #4ab7c7; font-size: 41px; font-weight: 900; text-transform: uppercase;}					
 				}
 				.brand-name{padding: 0 0 40px 0;
-					h3{font-size: 63px; font-weight: 300;}
+					h3{font-size: 63px; font-weight: 300; line-height: 0.9;}
 				}
 				.brand-descrition{font-size: 16px; border-left: 5px solid #ffce23; padding: 0 0 0 20px;
 					
@@ -20,7 +20,7 @@
 		}
 		.part-with-timer{position: relative; z-index:3; display: flex;  flex-wrap: wrap; padding-top: 50px; padding-bottom: 170px;
 			.sircle-with-tick-wrapper{padding: 0 0 30px 0;width: 100%; display: flex; justify-content: center;
-				.sircle-with-tick{width: 60px; min-height: 60px; border: 1px solid #fff; border-radius: 50%;display: flex; justify-content: center; align-items: center;
+				.sircle-with-tick{width: 60px; min-height: 60px; border: 1px solid #fff; border-radius: 50%;display: flex; justify-content: center; align-items: center; cursor: pointer;
 					.tick{width: 15px; min-height: 15px; border-right: 2px solid #fff; border-top: 2px solid #fff;transform: rotate(135deg); margin-top: -7px; 
 						
 					}

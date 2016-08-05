@@ -14,7 +14,13 @@
 
 }
 @media screen and (max-width: 992px){
-	.block1 .mbox .part-with-timer{padding-bottom: 40px;
+	.footer_placeholder{height: 167px;
+		
+	}
+	.block1 .mbox {
+		.part-with-face{padding-right: 0;padding-bottom: 280px;}
+		.part-with-timer{padding-bottom: 40px; 
+		}
 	}
 	.block1 .lower-background-wrapper {width: 100%; min-height: 1046px; z-index: 2; position: absolute; bottom: 0px; background-position: center; background-size: 1920px 1046px;}
 
@@ -28,18 +34,40 @@
 		.yellow-slashes{left: 0;}
 		.goods{left: 0; bottom: 0;}
 	}
+	.block6{padding-top: 70px;
+		.lower-background-wrapper{background-position: center top; top: 0;
+				
+			}
+		.mbox .part-with-timer{
+			top:0;
+			
+		}
+	}
+	
 }
 @media screen and (max-width: 767px){
-
+	
+}
+@media screen and (max-width: 706px){
+	.block1 .lower-background-wrapper {width: 100%; min-height:1355px;; z-index: 2; position: absolute; bottom: 0px; background-position: center bottom; background-size: 1920px 1205px;
+		
+	}
+	.block1 .mbox .part-with-timer .more-advantages{flex-direction: column; align-items: center;
+		.advantage{margin-bottom: 30px;
+			&:last-child{margin-bottom:0;}
+		}
+		
+	}
+	.making-order{padding: 30px 10px 30px}
 }
 @media screen and (max-width: 666px){
-	.making-order{		background-image: url(../images/bg1t.jpg); background-repeat: no-repeat; background-position: left top; padding: 40px 10px 70px;
+	.making-order{		background-image: url(../images/bg1t.jpg); background-repeat: no-repeat; background-position: left top; padding: 40px 10px 30px;
 		.yellow-slashes,
 		.goods{ display: none;}
-		.right-part { width: 100%;
-			.order { padding: 0; justify-content: center;}
+		.right-part { width: 100%; padding-top: 10px;
+			.order { padding: 0; justify-content: center; height: 220px;}
 		}
-		.left-part{ width: 100%; padding-right: 0; padding-top: 121px;
+		.left-part{ width: 100%; padding-right: 0; padding-left: 100px;padding-top: 121px; justify-content: flex-end;
 			.timer-part{ padding-right: 18px;
 				.timer{
 					.date{ width: 51px; height: 51px;}
@@ -53,9 +81,16 @@
 			}
 		}
 	}
+	.block1{box-shadow: inset 0 330px 40px 0 rgba(255, 255, 255, 0.7);
+		.lower-background-wrapper{background-size: 1920px 1300px;
+			
+		}
+	}
 }
-@media screen and (max-width: 479px){
-
+@media screen and (max-width: 487px){
+	.block1 .lower-background-wrapper {width: 100%; min-height:1355px;; z-index: 2; position: absolute; bottom: 0px; background-position: center; background-size: 1920px 1300px;
+		
+	}
 }
 @media screen and (max-width: 320px){
 
