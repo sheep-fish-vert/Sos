@@ -36,7 +36,7 @@
 					}
 				}
 			}
-			.making-order{ max-width: 965px; width: 100%; display: flex; margin: 0 auto; background: #fff; position: relative; justify-content: flex-end; padding:50px 70px 85px 0; min-height: 465px; flex-wrap: wrap; 
+			.making-order{ max-width: 965px; width: 100%; display: flex; margin: 0 auto; background: #fff; position: relative; justify-content: flex-end; padding:50px 70px 85px 0; min-height: 465px; flex-wrap: wrap;  box-shadow: 0 60px 55px -60px rgba(0, 0, 0, 1);
 				.order-heading{width: 100%; text-align: center;
 					h3{font-size: 30px; font-weight: 900;}
 				}
@@ -77,7 +77,9 @@
 						&:-ms-input-placeholder      {color:#616161; font-family: 'Acrom'; font-size: 16px; font-weight: 300;}
 
 					}
-					button{padding: 20px 0 15px; background:#4fc5c1; color: #fff; font-size: 18px; font-family:'Acrom';  font-family: 700; border: none; border-bottom: 5px solid #43bdb9; border-radius: 5px; }
+					button{padding: 20px 0 15px; background:#4fc5c1; color: #fff; font-size: 18px; font-family:'Acrom';  font-family: 700; border: none; border-bottom: 5px solid #43bdb9; border-radius: 5px;
+						&:hover{background:#4fc594; }
+					 }
 				}
 				.yellow-slashes{ position:absolute;  top: 0; left: -50px; z-index: 1;
 					
