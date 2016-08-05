@@ -68,7 +68,7 @@
 				}
 			}
 			.new-price{ width: 210px; font-size: 24px; font-weight: 900; background: #ffce23; padding: 20px 15px; border-top-right-radius: 36px;
-				border-bottom-right-radius: 36px;
+				border-bottom-right-radius: 36px; letter-spacing: -1px;
 				span{font-size: 41px;
 
 				}
@@ -87,7 +87,7 @@
 		}
 	}
 	.right-part{ width: 320px; border-left: 1px solid #4fc5c1;
-		.order{display: flex; padding-left: 40px; align-content: space-around; height: 100%; flex-wrap: wrap;
+		.order{display: flex; padding-left: 40px; align-content: space-around; height: 273px; flex-wrap: wrap;
 
 		}
 		input{border: 1px solid #4fc5c1; padding: 20px 15px; border-radius: 5px; width: 360px;

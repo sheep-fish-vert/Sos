@@ -14,7 +14,20 @@
 
 }
 @media screen and (max-width: 992px){
+	.block1 .mbox .part-with-timer{padding-bottom: 40px;
+	}
+	.block1 .lower-background-wrapper {width: 100%; min-height: 1046px; z-index: 2; position: absolute; bottom: 0px; background-position: center; background-size: 1920px 1046px;}
 
+	.making-order{flex-direction: column; align-items: flex-end; padding-bottom: 70px;
+		.order-heading{height: 55px;}
+		.left-part{padding-bottom: 30px;}
+		.right-part{border-left:none; border-top: 1px solid #4fc5c1;width: 360px; padding-top: 30px;
+			.order{padding-left: 40px; padding-right: 30px; }
+		}
+		.green-slashes{display: none;}
+		.yellow-slashes{left: 0;}
+		.goods{left: 0; bottom: 0;}
+	}
 }
 @media screen and (max-width: 767px){
 
