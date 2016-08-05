@@ -35,11 +35,14 @@
         .img1920{ display: none;}
     }
     .block4{
-
-
         .content{  margin-bottom: 31px;}
-
         .bott-blue{  font:500 22px/1.2 'Acrom'; padding: 50px 20px 45px;}
+    }
+    .block5{
+        .item{flex-wrap: wrap;
+            .txt-wrap{ margin-left: 0;}
+        }
+
     }
 }
 @media screen and (max-width: 666px){
@@ -82,6 +85,14 @@
             .txt{font:100 14px/17px 'Roboto';}
         }
         .bott-blue{  font:500 18px/1.2 'Acrom'; padding: 44px 0px 42px;}
+    }
+    .block5 {
+
+        .item{
+            .title-item{font: 900 20px/1.2 'Acrom'; }
+            .autor{font:100 14px/16px 'Roboto';}
+            .txt{font:100 16px/19px 'Roboto';}
+        }
     }
 }
 @media screen and (max-width: 320px){
